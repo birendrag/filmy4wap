@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: rgb(255, 255, 255);
+}
+
+.header-container {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+    color: #ea17fd;
+}
+
+.genre-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.genre-nav li {
+    display: inline;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.movie-detail-container {
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.movie-card {
+    margin-bottom: 30px;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.cast, .crew, .reviews, .related {
+    margin-top: 30px;
+    padding: 15px;
+    background: #222;
+    border-radius: 10px;
+}
+
+.cast h3, .crew h3, .reviews h3, .related h3 {
+    margin-bottom: 10px;
+}
+
+.cast ul, .crew ul, .related ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cast li, .crew li, .related li {
+    margin: 5px 0;
+}
+
+.wiki-details img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.long-description {
+    margin-top: 40px;
+    padding: 35px;
+    background: #222;
+    border-radius: 20px;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #ffd700;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .poster-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+.screenshots {
+    display: flex;
+    gap: 10px;
+}
+
+.screenshot {
+    width: 30%;
+    border-radius: 8px;
+}
